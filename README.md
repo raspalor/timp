@@ -6,7 +6,6 @@
 		setlocale(LC_ALL, "Russian");
 		if (argc != 4) {
 			cout << "Введите пожалуйста в формате (a ; +, -, *, / ; b)" << endl;
-			exit(EXIT_FAILURE);
 		}
 		double a, b;
 		a = atof(argv[1]);
